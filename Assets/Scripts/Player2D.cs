@@ -42,7 +42,7 @@ public class Player2D : Character2D, IDamagable,IHealable,IScoreable
 		weapon.Attack(direction);
 	}
 
-	public void ApplyDamage(float damage)
+	public void ApplyDamage(int damage)
 	{
 		healthVar.value -= damage;
         print("Player Damaged:" + damage);

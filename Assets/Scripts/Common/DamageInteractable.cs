@@ -5,7 +5,7 @@ using UnityEngine;
 public class DamageInteractable : MonoBehaviour, IInteractable
 {
 	[SerializeField] Action action;
-	[SerializeField] float damage = 1;
+	[SerializeField] int damage = 1;
 	[SerializeField] bool damageOverTime = false;
 
 	private void Start()
@@ -31,7 +31,7 @@ public class DamageInteractable : MonoBehaviour, IInteractable
 		// apply damage over time, while interact is active
 		if (damageOverTime && interactor.TryGetComponent(out IDamagable damagable))
 		{
-			damagable.ApplyDamage(damage * Time.deltaTime);
+			damagable.ApplyDamage(damage * (int)Time.deltaTime);
 		}
 	}
 
