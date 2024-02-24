@@ -1,18 +1,20 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] protected string scene; // the scene we're switching too
+
+    public void ChangeScene()
     {
-        
+        SceneManager.LoadScene(scene);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Exit()
     {
-        
+        Application.Quit();
     }
 }
