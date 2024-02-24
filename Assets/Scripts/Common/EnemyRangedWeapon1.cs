@@ -1,20 +1,11 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class RangedWeapon: Weapon2D
+public class EnemyRangedWeapon: Weapon2D
 {
     [SerializeField] private Transform projectileSpawnPoint; // Single spawn point for projectiles
     [SerializeField] private GameObject projectilePrefab; // Reference to your projectile prefab
     [SerializeField] private float projectileSpeed = 10f;
-    [SerializeField] private int maxShots = 10;
-
-    private int shotsRemaining; // Tracks the number of shots left
-
-    public void Start()
-    {
-        shotsRemaining = maxShots; 
-    }
 
     public override void Attack(eDirection direction)
     {
@@ -24,7 +15,7 @@ public class RangedWeapon: Weapon2D
     public override bool Use(Animator animator)
     {
         bool used = false;
-        if (ready && shotsRemaining > 0) // Check if there are shots remaining
+        if (ready)
         {
             if (animator != null && animationTriggerName != "")
             {
@@ -32,7 +23,7 @@ public class RangedWeapon: Weapon2D
                 ready = false;
                 StartCoroutine(ResetAttackReadyCR(attackRate));
                 Attack();
-                shotsRemaining--; // Decrement the shot counter
+
                 used = true;
             }
         }
@@ -41,25 +32,23 @@ public class RangedWeapon: Weapon2D
 
     private void Attack()
     {
-        if (projectilePrefab && projectileSpawnPoint)
+        // Assuming the player is tagged with "Player"
+        GameObject player = GameObject.FindWithTag("Player");
+        if (projectilePrefab && projectileSpawnPoint && player != null)
         {
-            Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mouseWorldPosition.z = 0; // Ensure there is no Z-axis difference
+            // Calculate direction towards the player
+            Vector2 direction = (player.transform.position - projectileSpawnPoint.position).normalized;
 
-            Vector2 direction = (mouseWorldPosition - projectileSpawnPoint.position).normalized;
-
+            // Instantiate the projectile
             GameObject projectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
             Projectile projectileScript = projectile.GetComponent<Projectile>();
 
+            // Launch the projectile towards the player
             if (projectileScript != null)
             {
                 projectileScript.Launch(direction * projectileSpeed);
             }
         }
-    }
-    public void RefillAmmo(int amount)
-    {
-        shotsRemaining = Mathf.Min(shotsRemaining + amount, maxShots);
     }
 
 
@@ -69,19 +58,27 @@ public class RangedWeapon: Weapon2D
         yield return new WaitForSeconds(time);
         ready = true;
     }
+    
     void OnDrawGizmos()
     {
         if (projectileSpawnPoint != null)
         {
-            Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mouseWorldPosition.z = 0; // Align with the 2D world
+            // Assuming the player is tagged with "Player"
+            GameObject player = GameObject.FindWithTag("Player");
+            if (player != null)
+            {
+                // Draw a line from the spawn point to the player
+                Gizmos.color = Color.red; // Set the color of the Gizmo line
+                Gizmos.DrawLine(projectileSpawnPoint.position, player.transform.position);
 
-            // Draw a line from the spawn point to the mouse position
-            Gizmos.color = Color.red;
-            Gizmos.DrawLine(projectileSpawnPoint.position, mouseWorldPosition);
+                // Optionally, draw a sphere at the spawn point to visualize it
+                Gizmos.DrawWireSphere(projectileSpawnPoint.position, 0.5f);
 
-            // Optionally, draw a small sphere at the mouse position to indicate the exact target
-            Gizmos.DrawSphere(mouseWorldPosition, 0.1f);
+                // Draw a sphere at the player's position to visualize the target
+                Gizmos.DrawWireSphere(player.transform.position, 0.5f);
+            }
+
         }
     }
+
 }

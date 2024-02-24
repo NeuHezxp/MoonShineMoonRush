@@ -24,7 +24,7 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
 
     [Header("Weapons")]
     [SerializeField] private Weapon2D weaponMelee;
-    [SerializeField] private Weapon2D rangedWeapon;
+    [SerializeField] public Weapon2D rangedWeapon;
 
     private void Update()
     {
@@ -107,7 +107,7 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
     private void HandleAttackInput()
     {
         if (Input.GetButtonDown("Fire1")) rangedWeapon.Use(animator);
-        if (Input.GetButtonDown("Fire2")) weaponMelee.Use(animator); // Placeholder for melee attack
+        if (Input.GetButtonDown("Fire2")) weaponMelee.Use(animator); 
     }
 
     // Implementing IDamagable, IHealable, IScoreable interfaces

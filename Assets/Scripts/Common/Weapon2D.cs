@@ -17,7 +17,9 @@ public abstract class Weapon2D : MonoBehaviour
     [SerializeField] protected LayerMask layerMask = Physics.AllLayers;
 
     protected bool ready = true;
-
+        
     public abstract bool Use(Animator animator);
     public abstract void Attack(eDirection direction);
+
+   
 }
