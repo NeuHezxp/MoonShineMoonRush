@@ -20,4 +20,6 @@ public abstract class Weapon2D : MonoBehaviour
 
     public abstract bool Use(Animator animator);
     public abstract void Attack(eDirection direction);
+
+   
 }
