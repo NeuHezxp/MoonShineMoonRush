@@ -16,7 +16,7 @@ public class Character2D : MonoBehaviour
 
 	[SerializeField, Range(0, 10)] protected float speed = 5;
 	[SerializeField, Range(0, 80)] protected float gravity = 60;
-	[SerializeField] protected float health = 100;
+	[SerializeField] protected int health = 1;
 	[SerializeField] protected eFace spriteFacing = eFace.Right;
 
 	protected CharacterController2D characterController;

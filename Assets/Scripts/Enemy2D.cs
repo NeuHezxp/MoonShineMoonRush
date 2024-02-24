@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy2D : Character2D,IDamagable
+public class Enemy2D : Character2D, IDamagable
 {
 	enum eState
 	{
@@ -17,7 +17,7 @@ public class Enemy2D : Character2D,IDamagable
 	[SerializeField] AIPath2D path2D;
 
 	[SerializeField] float attackRange = 2;
-	[SerializeField] float maxHealth = 2;
+	[SerializeField] int maxHealth = 2;
 	[SerializeField] Weapon2D Weapon2D;
 
 	private eState state;
@@ -119,7 +119,7 @@ public class Enemy2D : Character2D,IDamagable
 		Weapon2D.Attack(direction);
 	}
 
-    public void ApplyDamage(float damage)
+    public void ApplyDamage(int damage)
     {
         health -=damage;
 		if(health <= 0)

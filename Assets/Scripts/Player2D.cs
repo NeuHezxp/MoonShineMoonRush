@@ -55,7 +55,6 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
         }
     }
 
-
     // Jumping logic
     private void HandleJump()
     {

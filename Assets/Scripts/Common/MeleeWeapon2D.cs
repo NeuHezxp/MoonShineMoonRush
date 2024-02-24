@@ -35,7 +35,7 @@ public class MeleeWeapon2D : Weapon2D
 		{
 			if ((tagName == "" || collider.gameObject.CompareTag(tagName)) && collider.gameObject.TryGetComponent(out IDamagable damagable))
 			{
-				damagable.ApplyDamage(damage);
+				damagable.ApplyDamage((int)damage);
 			}
 		}
 	}

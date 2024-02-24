@@ -12,8 +12,13 @@ TagManager:
   - Player
   - Water
   - UI
+
   - TIleset
   - 
+
+  - Enemy
+  - Player
+
   - 
   - 
   - 
