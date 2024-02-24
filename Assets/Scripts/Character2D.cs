@@ -29,9 +29,27 @@ public class Character2D : MonoBehaviour
 	{
 		characterController = GetComponent<CharacterController2D>();
 	}
+    protected virtual void Update()
+    {
+        // Assuming horizontal input is used to determine the direction
+        float horizontalInput = Input.GetAxis("Horizontal");
 
-	
-	protected virtual void FixedUpdate()
+        // Update the facing direction based on the input
+        if (horizontalInput > 0)
+        {
+            facing = eFace.Right;
+        }
+        else if (horizontalInput < 0)
+        {
+            facing = eFace.Left;
+        }
+    }
+
+   
+
+
+
+    protected virtual void FixedUpdate()
 	{
 		// vertical movement (gravity)
 		movement.y -= gravity * Time.fixedDeltaTime;
@@ -41,15 +59,10 @@ public class Character2D : MonoBehaviour
 		UpdateFacing();
 	}
 
-	protected void UpdateFacing()
-	{
-		if (facing == eFace.Left)
-		{
-			spriteRenderer.flipX = (spriteFacing == eFace.Right);
-		}
-		else
-		{
-			spriteRenderer.flipX = !(spriteFacing == eFace.Right);
-		}
-	}
+    protected void UpdateFacing()
+    {
+        // Flip the sprite based on the facing direction
+        spriteRenderer.flipX = (facing != spriteFacing);
+    }
+
 }

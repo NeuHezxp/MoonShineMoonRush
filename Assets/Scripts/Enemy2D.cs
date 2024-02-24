@@ -71,6 +71,7 @@ public class Enemy2D : Character2D, IDamagable
 				break;
 		}
 
+
 	}
 
 	protected override void FixedUpdate()

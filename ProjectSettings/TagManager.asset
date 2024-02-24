@@ -9,11 +9,16 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
+
+  - TIleset
+  - 
+
   - Enemy
   - Player
+
   - 
   - 
   - 

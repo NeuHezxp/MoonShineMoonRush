@@ -1,61 +1,130 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Player2D : Character2D, IDamagable,IHealable,IScoreable
+// Inherit from Character2D and interfaces for damage, healing, and scoring
+public class Player2D : Character2D, IDamagable, IHealable, IScoreable
 {
-	//game mangager has these and the player has the 
-	[SerializeField] IntVariable scoreVar;
-	[SerializeField] FloatVariable healthVar;
-	[SerializeField] Weapon2D weapon;
+    [Header("Movement Settings")]
+    [SerializeField, Range(0, 20)] private float jumpHeight = 12;
+    private int jumpCount = 0;
+    [SerializeField] private int maxJumpCount = 2; // Allow for double jump
 
-	[SerializeField, Range(0, 20)] float jump = 12;
+    [Header("Dash Settings")]
+    [SerializeField] private float dashSpeed = 20f;
+    [SerializeField] private float dashDuration = 0.2f;
+    [SerializeField] private float dashCooldown = 1f;
+    private bool isDashing = false;
+    private float cooldownTimer = 0f;
+    [SerializeField] private int maxDashCount = 1;
+    private int currentDashCount = 0;
 
+    [Header("Player Stats")]
+    [SerializeField] private IntVariable scoreVar;
+    [SerializeField] private FloatVariable healthVar;
 
-	private void Update()
-	{
-		if (characterController.onGround && Input.GetButtonDown("Jump"))
-		{
-			movement.y = jump;
-		}
-		animator.SetBool("OnGround", characterController.onGround);
+    [Header("Weapons")]
+    [SerializeField] private Weapon2D weaponMelee;
+    [SerializeField] private Weapon2D rangedWeapon;
 
-		if (Input.GetButtonDown("Fire1"))
-		{
-			weapon.Use(animator);
-		}
-	}
+    private void Update()
+    {
+        HandleMovementInput();
+        HandleJump();
+        HandleDash();
+        HandleAttackInput();
+    }
 
-	protected override void FixedUpdate()
-	{
-		// horizontal movement
-		movement.x = Input.GetAxis("Horizontal") * speed;
-		animator.SetFloat("Speed", Mathf.Abs(movement.x));
-		if (Mathf.Abs(movement.x) > 0.1f) facing = (movement.x > 0) ? eFace.Right : eFace.Left;
+    protected override void FixedUpdate()
+    {
+        base.FixedUpdate(); // Process movement and physics
+    }
 
-		base.FixedUpdate();
-	}
+    // Handle horizontal movement based on player input
+    private void HandleMovementInput()
+    {
+        float horizontalInput = Input.GetAxis("Horizontal");
+        movement.x = horizontalInput * speed;
 
-	public void Attack()
-	{
-		Weapon2D.eDirection direction = (facing == eFace.Right) ? Weapon2D.eDirection.Right : Weapon2D.eDirection.Left;
-		weapon.Attack(direction);
-	}
+        // Update animator with movement speed
+        animator.SetFloat("Speed", Mathf.Abs(movement.x));
 
-	public void ApplyDamage(int damage)
-	{
-		healthVar.value -= damage;
-        print("Player Damaged:" + damage);
-	}
+        // Update facing direction based on the input
+        if (Mathf.Abs(movement.x) > 0.1f)
+        {
+            facing = (movement.x > 0) ? eFace.Right : eFace.Left;
+        }
+    }
 
-	public void Heal(float health)
-	{
-		healthVar.value += health;
-        print("Player Healed:" + health);
-	}
+    // Jumping logic
+    private void HandleJump()
+    {
+        bool isGrounded = characterController.onGround;
+        animator.SetBool("OnGround", isGrounded);
+
+        if (isGrounded) jumpCount = 0; // Reset jump count
+
+        if (Input.GetButtonDown("Jump") && (isGrounded || jumpCount < maxJumpCount))
+        {
+            movement.y = jumpHeight;
+            jumpCount++;
+        }
+    }
+
+    // Dash logic with cooldown and ground check
+    private void HandleDash()
+    {
+        bool isGrounded = characterController.onGround;
+        if (Input.GetKeyDown(KeyCode.LeftShift) && cooldownTimer <= 0 && !isDashing && isGrounded && currentDashCount < maxDashCount)
+        {
+            StartCoroutine(PerformDash());
+            currentDashCount++;
+        }
+
+        if (cooldownTimer > 0) cooldownTimer -= Time.deltaTime;
+    }
+    private IEnumerator PerformDash()
+    {
+        isDashing = true;
+        float originalSpeed = speed; // Save original speed
+        speed += dashSpeed; // Increase speed for momentum
+        cooldownTimer = dashCooldown; // Start cooldown
+
+        Vector2 dashDirection = new Vector2(facing == eFace.Right ? 1 : -1, 0) * dashSpeed;
+        characterController.Move(dashDirection * Time.deltaTime);
+
+        float startTime = Time.time;
+        while (Time.time < startTime + dashDuration)
+        {
+            yield return null; // Maintain momentum for the duration of the dash
+        }
+
+        speed = originalSpeed; // Reset speed after dash
+        isDashing = false;
+    }
+
+    // Handle player attacks
+    private void HandleAttackInput()
+    {
+        if (Input.GetButtonDown("Fire1")) rangedWeapon.Use(animator);
+        if (Input.GetButtonDown("Fire2")) weaponMelee.Use(animator); // Placeholder for melee attack
+    }
+
+    // Implementing IDamagable, IHealable, IScoreable interfaces
+    public void ApplyDamage(float damage)
+    {
+        healthVar.value -= damage;
+        Debug.Log("Player Damaged: " + damage);
+    }
+
+    public void Heal(float health)
+    {
+        healthVar.value += health;
+        Debug.Log("Player Healed: " + health);
+    }
 
     public void AddScore(int score)
     {
-       scoreVar.value += score;//this
+        scoreVar.value += score;
+        Debug.Log("Score Updated: " + score);
     }
 }
