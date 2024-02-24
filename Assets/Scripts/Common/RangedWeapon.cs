@@ -57,6 +57,10 @@ public class RangedWeapon: Weapon2D
             }
         }
     }
+    public void RefillAmmo(int amount)
+    {
+        shotsRemaining = Mathf.Min(shotsRemaining + amount, maxShots);
+    }
 
 
 

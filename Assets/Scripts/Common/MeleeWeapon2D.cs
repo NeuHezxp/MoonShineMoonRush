@@ -7,8 +7,11 @@ public class MeleeWeapon2D : Weapon2D
 	[SerializeField] Transform attackLeftTransform;
 	[SerializeField] Transform attackRightTransform;
 	[SerializeField, Range(0, 5)] float attackRadius = 1;
+    [SerializeField] private Player2D player; 
+    [SerializeField] private RangedWeapon rangedReference; 
 
-	public override bool Use(Animator animator)
+
+    public override bool Use(Animator animator)
 	{
 		bool used = false;
 		if (ready)
@@ -36,7 +39,11 @@ public class MeleeWeapon2D : Weapon2D
 			if ((tagName == "" || collider.gameObject.CompareTag(tagName)) && collider.gameObject.TryGetComponent(out IDamagable damagable))
 			{
 				damagable.ApplyDamage(damage);
-			}
+                if (player != null && player.rangedWeapon != null)
+                {
+					rangedReference.RefillAmmo(3); ; // Refills 1 ammo, adjust as needed
+                }
+            }
 		}
 	}
 
