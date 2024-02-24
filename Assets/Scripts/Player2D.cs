@@ -12,13 +12,12 @@ public class Player2D : Character2D, IDamagable,IHealable,IScoreable
 	[SerializeField, Range(0, 20)] float jump = 12;
 
 
-	private void Update()
-	{
-		if (characterController.onGround && Input.GetButtonDown("Jump"))
-		{
-			movement.y = jump;
-		}
-		animator.SetBool("OnGround", characterController.onGround);
+    // Jumping logic
+    private void HandleJump()
+    {
+        bool isGrounded = characterController.onGround;
+        animator.SetBool("OnGround", isGrounded);
+
 
 		if (Input.GetButtonDown("Fire1"))
 		{
@@ -42,11 +41,10 @@ public class Player2D : Character2D, IDamagable,IHealable,IScoreable
 		weapon.Attack(direction);
 	}
 
-	public void ApplyDamage(int damage)
-	{
-		healthVar.value -= damage;
-        print("Player Damaged:" + damage);
-	}
+
+        Vector2 dashDirection = new Vector2(facing == eFace.Right ? 1 : -1, 0) * dashSpeed;
+        characterController.Move(dashDirection * Time.deltaTime);
+
 
 	public void Heal(float health)
 	{
