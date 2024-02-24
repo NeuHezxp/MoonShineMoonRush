@@ -33,15 +33,16 @@ public class UIManager : Singleton<UIManager>
 		set	{ timerUI.text = string.Format("{0:F1}", value); }
 	}
 
-	public int Score
-	{
-		set { scoreUI.text = string.Format("{0:D1}", value); }
-	}
+    public int Score
+    {
+        set { scoreUI.text = string.Format("SCORE: {0:D}", value); }
+    }
 
-	public float Health
+
+    public float Health
 	{
-		set { healthUI.value = value / 100.0f; }
-	}
+        set { healthUI.value = value; }
+    }
 
 
 	private void Start()

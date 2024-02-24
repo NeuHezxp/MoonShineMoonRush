@@ -115,6 +115,18 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
     {
         healthVar.value -= damage;
         Debug.Log("Player Damaged: " + damage);
+        if (healthVar.value <= 0)
+        {
+            Die();
+        }
+    }
+    private void Die()
+    {
+        Debug.Log("Player Died");
+        
+        gameObject.SetActive(false);
+        
+        animator.SetTrigger("Die");
     }
 
     public void Heal(float health)
@@ -127,5 +139,6 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
     {
         scoreVar.value += score;
         Debug.Log("Score Updated: " + score);
+        UIManager.Instance.Score = scoreVar.value;
     }
 }

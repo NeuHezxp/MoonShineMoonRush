@@ -78,14 +78,14 @@ public class RangedEnemy2D : Character2D,IDamagable
             case eState.Attack:
                 if (Time.time > lastAttackTime + attackCooldown)
                 {
-					LaunchProjectileAtPlayer();
+                    LaunchProjectileAtPlayer();
                     Attack();
                     lastAttackTime = Time.time; // Update the last attack time
-                    state = eState.Chase; // Switch back to chasing after attacking
+                                                // Do not immediately switch back to chase; wait for attack to be acknowledged in FixedUpdate
                 }
                 break;
-                
-			case eState.Death:
+
+            case eState.Death:
 				animator.SetBool("Death", true);
 				movement.x = 0;
                 if (!isCoroutineStarted) // Check if the coroutine has already been started to avoid duplicates
@@ -118,7 +118,15 @@ public class RangedEnemy2D : Character2D,IDamagable
 			}
 
 		}
-		if(state == eState.Death)
+		if(state == eState.Attack)
+		{
+            movement.x = 0;
+            if (Time.time > lastAttackTime)            {
+                state = eState.Chase; 
+            }
+
+        }
+        if (state == eState.Death)
 		{
 			movement.x = 0;
 		}

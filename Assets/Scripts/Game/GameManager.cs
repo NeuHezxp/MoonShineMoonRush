@@ -28,7 +28,15 @@ public class GameManager : Singleton<GameManager>
 	private State state = State.TITLE;
 
 	void Update()
-	{	
+	{
+		if (UIManager.Instance != null)
+		{
+			UIManager.Instance.Health = health.value;
+			UIManager.Instance.Timer = timer.value;
+			UIManager.Instance.Score = score.value;
+			UIManager.Instance.Lives = lives.value;
+		}
+
 		switch (state)
 		{
 			case State.TITLE:
@@ -59,22 +67,21 @@ public class GameManager : Singleton<GameManager>
 				{
 					state = State.GAME_OVER;
 				}
+
 				break;
 			case State.GAME_OVER:
 				break;
 			default:
 				break;
+
 		}
 
-		//UIManager.Instance.Health = health;
-		//UIManager.Instance.Timer = timer;
-		//UIManager.Instance.Score = score;
-		//UIManager.Instance.Lives = lives;
+
 	}
 
 	public void OnStartGame()
 	{
-		state = State.START_GAME;
+
 	}
 
 	public void OnPlayerDead()
@@ -84,6 +91,14 @@ public class GameManager : Singleton<GameManager>
 
 	public void OnAddPoints(int points)
 	{
-		print(points);
+		score.value += points;
+		Debug.Log($"New Score: {score.value}");
+
+		// Update the score display
+		if (UIManager.Instance != null)
+		{
+			UIManager.Instance.Score = score.value;
+		}
 	}
 }
+

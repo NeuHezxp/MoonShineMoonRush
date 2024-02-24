@@ -41,7 +41,7 @@ public class MeleeWeapon2D : Weapon2D
 				damagable.ApplyDamage(damage);
                 if (player != null && player.rangedWeapon != null)
                 {
-					rangedReference.RefillAmmo(3); ; // Refills 1 ammo, adjust as needed
+					rangedReference.RefillAmmo(3); ; // Refills 1 ammo,
                 }
             }
 		}
