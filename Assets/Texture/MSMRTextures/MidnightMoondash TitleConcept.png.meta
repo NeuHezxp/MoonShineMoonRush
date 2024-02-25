@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MidnightMoondash TitleConcept_0: -8770235974030694888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
