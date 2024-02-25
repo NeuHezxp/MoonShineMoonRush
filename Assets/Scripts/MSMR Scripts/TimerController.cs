@@ -7,13 +7,14 @@ using UnityEngine;
 public class UniversalTimer : GlobalTimer
 {
     // actually counts our timer down
-    [SerializeField] TextMeshProUGUI timerText;
+    // i changed these from serialized to private so i can use the GameManager (CHANGE BACK IF BROKE)
+    [SerializeField] protected TextMeshProUGUI timerText;
 
     private void Update()
     {
-        remainingTime -= Time.deltaTime;
-        int minutes = Mathf.FloorToInt(remainingTime / 60);
-        int seconds = Mathf.FloorToInt(remainingTime % 60);
-        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+            remainingTime -= Time.deltaTime;
+            int minutes = Mathf.FloorToInt(remainingTime / 60);
+            int seconds = Mathf.FloorToInt(remainingTime % 60);
+            timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }
