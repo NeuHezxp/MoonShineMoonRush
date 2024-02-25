@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 159075470}
   - component: {fileID: 159075469}
   - component: {fileID: 159075468}
+  - component: {fileID: 159075472}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -359,6 +360,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &159075472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159075467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743c729c412b7b94486668fdbbda4b19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterMixer: {fileID: 24100000, guid: 8b95c9e9f1baf604c93e62a4a3308d16, type: 2}
+  musicSlider: {fileID: 1475834938}
 --- !u!1 &340443385
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,7 +797,7 @@ Transform:
   m_GameObject: {fileID: 712943852}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 905, y: 481, z: 6.226313}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1392,13 +1407,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 1763219278}
   m_HandleRect: {fileID: 463186310}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.62
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 159075472}
+        m_TargetAssemblyTypeName: VolumeSettings, Assembly-CSharp
+        m_MethodName: SetMusicVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1609249800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,10 +1799,10 @@ AudioSource:
   m_GameObject: {fileID: 1794790007}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -4245901496055879386, guid: 8b95c9e9f1baf604c93e62a4a3308d16, type: 2}
   m_audioClip: {fileID: 8300000, guid: 49b6225d4e025fb49ab3a5eb99299740, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
