@@ -24,9 +24,10 @@ public class Enemy2D : Character2D,IDamagable
 	private float timer;
 
 	private GameObject enemy = null;
+    private bool isCoroutineStarted = false; 
 
 
-	protected override void Start()
+    protected override void Start()
 	{
 		base.Start();
 
@@ -66,9 +67,14 @@ public class Enemy2D : Character2D,IDamagable
 				//Waits for attack done 
 				break;
 			case eState.Death:
-				animator.SetBool("Death", true);
-				movement.x = 0;
-				break;
+                animator.SetBool("Death", true);
+                movement.x = 0;
+                if (!isCoroutineStarted) // Check if the coroutine has already been started to avoid duplicates
+                {
+                    StartCoroutine(DestroyAfterDelay(2f)); // Destroy the enemy after 2 seconds
+                    isCoroutineStarted = true; // Ensure we don't start multiple coroutines
+                }
+                break;
 		}
 
 
@@ -126,5 +132,10 @@ public class Enemy2D : Character2D,IDamagable
 		{
             state = eState.Death;
         }
+    }
+    IEnumerator DestroyAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Destroy(gameObject); // Destroys the enemy game object
     }
 }
