@@ -32,9 +32,9 @@ public class GameManager : Singleton<GameManager>
 		if (UIManager.Instance != null)
 		{
 			UIManager.Instance.Health = health.value;
-			UIManager.Instance.Timer = timer.value;
-			UIManager.Instance.Score = score.value;
-			UIManager.Instance.Lives = lives.value;
+			//UIManager.Instance.Timer = timer.value;
+			//UIManager.Instance.Score = score.value;
+			//UIManager.Instance.Lives = lives.value;
 		}
 
 		switch (state)
@@ -97,7 +97,7 @@ public class GameManager : Singleton<GameManager>
 		// Update the score display
 		if (UIManager.Instance != null)
 		{
-			UIManager.Instance.Score = score.value;
+			//UIManager.Instance.Score = score.value;
 		}
 	}
 }

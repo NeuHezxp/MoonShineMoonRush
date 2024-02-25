@@ -23,20 +23,20 @@ public class UIManager : Singleton<UIManager>
 
 	Dictionary<string, Screen> registry = new Dictionary<string, Screen>(); //gets something from a name and returns it
 
-	public int Lives
-	{
-		set	{ livesUI.text = "LIVES: " + value.ToString(); }
-	}
+	//public int Lives
+	//{
+	//	set	{ livesUI.text = "LIVES: " + value.ToString(); }
+	//}
 
-	public float Timer
-	{
-		set	{ timerUI.text = string.Format("{0:F1}", value); }
-	}
+	//public float Timer
+	//{
+	//	set	{ timerUI.text = string.Format("{0:F1}", value); }
+	//}
 
-    public int Score
-    {
-        set { scoreUI.text = string.Format("SCORE: {0:D}", value); }
-    }
+    //public int Score
+    //{
+    //    set { scoreUI.text = string.Format("SCORE: {0:D}", value); }
+    //}
 
 
     public float Health

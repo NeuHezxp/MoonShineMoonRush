@@ -37,6 +37,8 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
     [Header("scenes")]
     [SerializeField] private SceneChanger sceneChanger;
 
+    private GlobalTimer timer;
+
 
 
     void Awake()
@@ -177,7 +179,7 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
             Die();
         }
     }
-    private void Die()
+    public void Die()
     {
         Debug.Log("Player Died");
 
@@ -198,10 +200,18 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
     {
         scoreVar.value += score;
         Debug.Log("Score Updated: " + score);
-        UIManager.Instance.Score = scoreVar.value;
+        //UIManager.Instance.Score = scoreVar.value;
         if (scoreVar.value >= 140)
         {
             sceneChanger.ChangeScene("Win"); 
+        }
+    }
+
+    public void OutOfTime()
+    {
+        if (timer.GetRT() < 0)
+        {
+            sceneChanger.ChangeScene("Lose");
         }
     }
 }
