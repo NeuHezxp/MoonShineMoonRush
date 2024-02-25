@@ -846,6 +846,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3064859792200497808, guid: 0f651331c0242e24782b8eb4a1bfccbb, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f323c3faae0fa854eb8f58f770d2e295, type: 2}
+    - target: {fileID: 3064859792200497808, guid: 0f651331c0242e24782b8eb4a1bfccbb, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -5068068397633477613, guid: f323c3faae0fa854eb8f58f770d2e295, type: 2}
+    - target: {fileID: 3064859792200497808, guid: 0f651331c0242e24782b8eb4a1bfccbb, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6710767374502406832, guid: 0f651331c0242e24782b8eb4a1bfccbb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -929,6 +941,18 @@ PrefabInstance:
     - target: {fileID: 7140768825718405563, guid: 0f651331c0242e24782b8eb4a1bfccbb, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600596776730149493, guid: 0f651331c0242e24782b8eb4a1bfccbb, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f323c3faae0fa854eb8f58f770d2e295, type: 2}
+    - target: {fileID: 8600596776730149493, guid: 0f651331c0242e24782b8eb4a1bfccbb, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -5068068397633477613, guid: f323c3faae0fa854eb8f58f770d2e295, type: 2}
+    - target: {fileID: 8600596776730149493, guid: 0f651331c0242e24782b8eb4a1bfccbb, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2328,7 +2352,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1106635024136254133, guid: b052cb20ff917234989b8fe61755b57b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.8463964
+      value: -5.2917814
       objectReference: {fileID: 0}
     - target: {fileID: 1106635024136254133, guid: b052cb20ff917234989b8fe61755b57b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -62703,7 +62727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7554633359744598766, guid: f06a05a5b152f23408769928dff6efac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.8463964
+      value: -5.2917814
       objectReference: {fileID: 0}
     - target: {fileID: 7554633359744598766, guid: f06a05a5b152f23408769928dff6efac, type: 3}
       propertyPath: m_LocalPosition.y

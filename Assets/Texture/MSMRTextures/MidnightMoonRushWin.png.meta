@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MidnightMoonRushWin_0: 8678048218434964816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

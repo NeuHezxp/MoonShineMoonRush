@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bromthr_0: 6482581375845383405
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
