@@ -12,8 +12,15 @@ public class VolumeSettings : MonoBehaviour
 
     private void Start()
     {
-        SetMusicVolume(); // makes audio compatible
-        SetSFXVolume();
+        if (PlayerPrefs.HasKey("MusicVolume"))
+        {
+            LoadMasterVolume();
+        }
+        else
+        {
+            SetMusicVolume();
+            SetSFXVolume();
+        }
     }
 
     public void SetMusicVolume()
@@ -25,13 +32,16 @@ public class VolumeSettings : MonoBehaviour
     public void SetSFXVolume()
     {
         float volume = SFXSlider.value;
-        masterMixer.SetFloat("Music", Mathf.Log10(volume) * 20);
+        masterMixer.SetFloat("SFX", Mathf.Log10(volume) * 20);
+        PlayerPrefs.SetFloat("SFXVolume", volume);
     }
 
-    private void LoadVolume()
+    private void LoadMasterVolume()
     {
         musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
+        SFXSlider.value = PlayerPrefs.GetFloat("SFXVolume");
 
         SetMusicVolume();
+        SetSFXVolume();
     }
 }
