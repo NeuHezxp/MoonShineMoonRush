@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8494336314323589400}
   - component: {fileID: 7034881251455659188}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 5308452702718059239}
   - component: {fileID: 8646428937287974127}
   - component: {fileID: 5832468536985452402}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: EnemyProjectile
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0f8003deeb652f438adb8be0f3afede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 95.96
   speed: 200
 --- !u!50 &8646428937287974127
 Rigidbody2D:
@@ -229,7 +229,7 @@ CapsuleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 192
+    m_Bits: 448
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
