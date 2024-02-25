@@ -101,7 +101,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  radius: 16.3
+  radius: 10.8
 --- !u!114 &174519987088871409
 MonoBehaviour:
   m_ObjectHideFlags: 0

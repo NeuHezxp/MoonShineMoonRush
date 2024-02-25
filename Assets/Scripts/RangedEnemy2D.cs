@@ -14,7 +14,7 @@ public class RangedEnemy2D : Character2D,IDamagable
 	}
 
 	[SerializeField] AIPerception2D perception;
-	[SerializeField] AIPath2D path2D;
+	//[SerializeField] AIPath2D path2D;
     
 
     [SerializeField] private GameObject projectilePrefab; // Reference to your projectile prefab
@@ -104,7 +104,7 @@ public class RangedEnemy2D : Character2D,IDamagable
 		// horizontal movement
 		if (state == eState.Patrol)
 		{
-			movement.x = (transform.position.x < path2D.targetPosition.x) ? speed : -speed; //if position is less then target position then the enemy moves to a point
+			//movement.x = (transform.position.x < path2D.targetPosition.x) ? speed : -speed; //if position is less then target position then the enemy moves to a point
 		}
 		if (state == eState.Chase)
 		{

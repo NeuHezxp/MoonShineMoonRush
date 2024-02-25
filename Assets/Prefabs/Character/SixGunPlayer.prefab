@@ -172,6 +172,7 @@ GameObject:
   - component: {fileID: 8120647072294736709}
   - component: {fileID: 617967889060592281}
   - component: {fileID: 4392801366216219377}
+  - component: {fileID: 1682483513371305816}
   m_Layer: 3
   m_Name: SixGunPlayer
   m_TagString: Player
@@ -188,7 +189,7 @@ Transform:
   m_GameObject: {fileID: 8103752182455594204}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.939, y: 2.893, z: 0}
+  m_LocalPosition: {x: 12.939, y: 3.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -227,6 +228,10 @@ MonoBehaviour:
   healthVar: {fileID: 11400000, guid: 19be5fe4ad20886448bac46de55ebc2d, type: 2}
   weaponMelee: {fileID: 5927362570130596286}
   rangedWeapon: {fileID: 6444753476173884581}
+  jumpSound: {fileID: 8300000, guid: e941dbdc86ea8944e85088b22c1f6331, type: 3}
+  doubleJump: {fileID: 8300000, guid: b63b54caf9bb6f34983692c19d9d7091, type: 3}
+  dashSound: {fileID: 8300000, guid: ed0152a43ea9ed94da80dd589f273464, type: 3}
+  attackSound: {fileID: 8300000, guid: ce4d8096951773c47ba95db86e99f0ca, type: 3}
 --- !u!114 &6444753476173884581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,7 +254,7 @@ MonoBehaviour:
   projectileSpawnPoint: {fileID: 4805613251772989505}
   projectilePrefab: {fileID: 8854633683525078950, guid: 7e7a9ca20eb704643b460ecf00e9880c, type: 3}
   projectileSpeed: 10
-  maxShots: 3
+  maxShots: 6
 --- !u!114 &5927362570130596286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,3 +434,99 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &1682483513371305816
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8103752182455594204}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.535
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

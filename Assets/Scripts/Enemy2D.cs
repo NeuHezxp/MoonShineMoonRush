@@ -85,7 +85,7 @@ public class Enemy2D : Character2D,IDamagable
 		// horizontal movement
 		if (state == eState.Patrol)
 		{
-			movement.x = (transform.position.x < path2D.targetPosition.x) ? speed : -speed; //if position is less then target position then the enemy moves to a point
+			//movement.x = (transform.position.x < path2D.targetPosition.x) ? speed : -speed; 
 		}
 		if (state == eState.Chase)
 		{
