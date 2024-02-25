@@ -1,0 +1,3124 @@
+fileFormatVersion: 2
+guid: ffdbed0f34dd8694786ea935d8dfee67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -468832167038780984
+    second: six-gun_0
+  - first:
+      213: 1547675783351064339
+    second: six-gun_1
+  - first:
+      213: -5931431819756491757
+    second: six-gun_2
+  - first:
+      213: 7156284622586068497
+    second: six-gun_3
+  - first:
+      213: 2762744947480399552
+    second: six-gun_4
+  - first:
+      213: -6468588969174784592
+    second: six-gun_5
+  - first:
+      213: 897835328113458054
+    second: six-gun_6
+  - first:
+      213: -54866147835482929
+    second: six-gun_7
+  - first:
+      213: -4638965209123822620
+    second: six-gun_8
+  - first:
+      213: -2892295605795407317
+    second: six-gun_9
+  - first:
+      213: 5747608568383391933
+    second: six-gun_10
+  - first:
+      213: -3816850338637406204
+    second: six-gun_11
+  - first:
+      213: -6548203611657422057
+    second: six-gun_12
+  - first:
+      213: 2070654516599359171
+    second: six-gun_13
+  - first:
+      213: -8645063744490294647
+    second: six-gun_14
+  - first:
+      213: -4062763074994871778
+    second: six-gun_15
+  - first:
+      213: -5900934562634290242
+    second: six-gun_16
+  - first:
+      213: 2570125340258365763
+    second: six-gun_17
+  - first:
+      213: 3635692455430343712
+    second: six-gun_18
+  - first:
+      213: -3105928234762108523
+    second: six-gun_19
+  - first:
+      213: -5751906620820147486
+    second: six-gun_20
+  - first:
+      213: 883446425625018028
+    second: six-gun_21
+  - first:
+      213: 7982208065413639952
+    second: six-gun_22
+  - first:
+      213: -8673487613550408862
+    second: six-gun_23
+  - first:
+      213: 3269442840433576293
+    second: six-gun_24
+  - first:
+      213: 3815826678218891681
+    second: six-gun_25
+  - first:
+      213: -1262073036550844661
+    second: six-gun_26
+  - first:
+      213: -5646291265451144710
+    second: six-gun_27
+  - first:
+      213: -2492616211829795248
+    second: six-gun_28
+  - first:
+      213: 2087535695595942585
+    second: six-gun_29
+  - first:
+      213: -2536769061767131681
+    second: six-gun_30
+  - first:
+      213: 7759779068102625603
+    second: six-gun_31
+  - first:
+      213: -2039339359183368503
+    second: six-gun_32
+  - first:
+      213: -1604021628885656309
+    second: six-gun_33
+  - first:
+      213: -5799891997084187249
+    second: six-gun_34
+  - first:
+      213: -2276392970813637250
+    second: six-gun_35
+  - first:
+      213: -9200757992769294991
+    second: six-gun_36
+  - first:
+      213: -4097977340613489698
+    second: six-gun_37
+  - first:
+      213: 8240233943190643105
+    second: six-gun_38
+  - first:
+      213: -2700382553389346353
+    second: six-gun_39
+  - first:
+      213: 2931625138786295456
+    second: six-gun_40
+  - first:
+      213: -5342616532796060443
+    second: six-gun_41
+  - first:
+      213: 5875620427363497328
+    second: six-gun_42
+  - first:
+      213: 2033329502812595460
+    second: six-gun_43
+  - first:
+      213: 7269850732336250866
+    second: six-gun_44
+  - first:
+      213: 2099256593248293660
+    second: six-gun_45
+  - first:
+      213: 9056085797709341479
+    second: six-gun_46
+  - first:
+      213: 5866081323313923631
+    second: six-gun_47
+  - first:
+      213: -5582840010175793006
+    second: six-gun_48
+  - first:
+      213: -3540760398144483939
+    second: six-gun_49
+  - first:
+      213: 9076270585241093459
+    second: six-gun_50
+  - first:
+      213: -3765149084883055410
+    second: six-gun_51
+  - first:
+      213: -6353962636259697365
+    second: six-gun_52
+  - first:
+      213: 2067871517146010089
+    second: six-gun_53
+  - first:
+      213: 1848030778765008875
+    second: six-gun_54
+  - first:
+      213: -8474761787169872131
+    second: six-gun_55
+  - first:
+      213: -7875587891361905579
+    second: six-gun_56
+  - first:
+      213: 417198762703749990
+    second: six-gun_57
+  - first:
+      213: -6024544274907815247
+    second: six-gun_58
+  - first:
+      213: -6028242444485493525
+    second: six-gun_59
+  - first:
+      213: 6804722198261520077
+    second: six-gun_60
+  - first:
+      213: 8951173486374782527
+    second: six-gun_61
+  - first:
+      213: 23002556948831360
+    second: six-gun_62
+  - first:
+      213: -8491043765050267655
+    second: six-gun_63
+  - first:
+      213: 1038063140137339632
+    second: six-gun_64
+  - first:
+      213: -871631925940410750
+    second: six-gun_65
+  - first:
+      213: -5427281127765747758
+    second: six-gun_66
+  - first:
+      213: -8995094362827939938
+    second: six-gun_67
+  - first:
+      213: -5443108775574192943
+    second: six-gun_68
+  - first:
+      213: -1273573230903390435
+    second: six-gun_69
+  - first:
+      213: 1095271280622347866
+    second: six-gun_70
+  - first:
+      213: 2433232188205284922
+    second: six-gun_71
+  - first:
+      213: -2065936229818763390
+    second: six-gun_72
+  - first:
+      213: 9024528798575192614
+    second: six-gun_73
+  - first:
+      213: 6237039697008240535
+    second: six-gun_74
+  - first:
+      213: -2913196960408543747
+    second: six-gun_75
+  - first:
+      213: 4681017693374852498
+    second: six-gun_76
+  - first:
+      213: -3828893885206155117
+    second: six-gun_77
+  - first:
+      213: 856264285650615855
+    second: six-gun_78
+  - first:
+      213: 4808941326317790843
+    second: six-gun_79
+  - first:
+      213: -9042570191092574292
+    second: six-gun_80
+  - first:
+      213: 963253857837880248
+    second: six-gun_81
+  - first:
+      213: -8520592882424071470
+    second: six-gun_82
+  - first:
+      213: -1005299452843392987
+    second: six-gun_83
+  - first:
+      213: -2684041932210526711
+    second: six-gun_84
+  - first:
+      213: -1306012658183176400
+    second: six-gun_85
+  - first:
+      213: -7382947740007406282
+    second: six-gun_86
+  - first:
+      213: -2058753447230249152
+    second: six-gun_87
+  - first:
+      213: -9040314307984653391
+    second: six-gun_88
+  - first:
+      213: 2779796670991431140
+    second: six-gun_89
+  - first:
+      213: -2519614782298016959
+    second: six-gun_90
+  - first:
+      213: -7505685344052160304
+    second: six-gun_91
+  - first:
+      213: 5344809899316003148
+    second: six-gun_92
+  - first:
+      213: -5713221727183109294
+    second: six-gun_93
+  - first:
+      213: 6241409897619921285
+    second: six-gun_94
+  - first:
+      213: 8770772032318071062
+    second: six-gun_95
+  - first:
+      213: 9031808975223629536
+    second: six-gun_96
+  - first:
+      213: 3009027748001709062
+    second: six-gun_97
+  - first:
+      213: 8418659404679282947
+    second: six-gun_98
+  - first:
+      213: -94282303150168207
+    second: six-gun_99
+  - first:
+      213: 6500526309190639162
+    second: six-gun_100
+  - first:
+      213: -8321670754524433750
+    second: six-gun_101
+  - first:
+      213: 7109537069482289081
+    second: six-gun_102
+  - first:
+      213: 5107096400432444777
+    second: six-gun_103
+  - first:
+      213: -2602960628008741314
+    second: six-gun_104
+  - first:
+      213: -5614604271634799960
+    second: six-gun_105
+  - first:
+      213: -8850211792781455256
+    second: six-gun_106
+  - first:
+      213: -7083585607825781186
+    second: six-gun_107
+  - first:
+      213: -4457358576537717831
+    second: six-gun_108
+  - first:
+      213: 6100879689850811186
+    second: six-gun_109
+  - first:
+      213: -8498882655290676166
+    second: six-gun_110
+  - first:
+      213: 424744582775703257
+    second: six-gun_111
+  - first:
+      213: 9100367733599697496
+    second: six-gun_112
+  - first:
+      213: -4140270229184486881
+    second: six-gun_113
+  - first:
+      213: -3059232841222727439
+    second: six-gun_114
+  - first:
+      213: 1793770127270333110
+    second: six-gun_115
+  - first:
+      213: 6441508427528122364
+    second: six-gun_116
+  - first:
+      213: 492897155343412782
+    second: six-gun_117
+  - first:
+      213: -3923318630876809
+    second: six-gun_118
+  - first:
+      213: 8635774566697550200
+    second: six-gun_119
+  - first:
+      213: -7427094273628396567
+    second: six-gun_120
+  - first:
+      213: 3246081678757204827
+    second: six-gun_121
+  - first:
+      213: 2561769227465505664
+    second: six-gun_122
+  - first:
+      213: -2603682840679719294
+    second: six-gun_123
+  - first:
+      213: 3649157994843155395
+    second: six-gun_124
+  - first:
+      213: 63465578858445773
+    second: six-gun_125
+  - first:
+      213: -7070668300365347356
+    second: six-gun_126
+  - first:
+      213: -949621506968482064
+    second: six-gun_127
+  - first:
+      213: 5642846749143309109
+    second: six-gun_128
+  - first:
+      213: -4794668961316239197
+    second: six-gun_129
+  - first:
+      213: 8886300421736150015
+    second: six-gun_130
+  - first:
+      213: -8305919280455043405
+    second: six-gun_131
+  - first:
+      213: 2236969914984765413
+    second: six-gun_132
+  - first:
+      213: 5648197861494698418
+    second: six-gun_133
+  - first:
+      213: -5484319573549906855
+    second: six-gun_134
+  - first:
+      213: 4090546023885140907
+    second: six-gun_135
+  - first:
+      213: 8409382677153795470
+    second: six-gun_136
+  - first:
+      213: -1605026308945035209
+    second: six-gun_137
+  - first:
+      213: 8480762782028816290
+    second: six-gun_138
+  - first:
+      213: 6799206816614209090
+    second: six-gun_139
+  - first:
+      213: -6955382993155336248
+    second: six-gun_140
+  - first:
+      213: 1552292305770617081
+    second: six-gun_141
+  - first:
+      213: -3659042394968627483
+    second: six-gun_142
+  - first:
+      213: 2929703853984304287
+    second: six-gun_143
+  - first:
+      213: 8617088254676874858
+    second: six-gun_144
+  - first:
+      213: -5898566489006184428
+    second: six-gun_145
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: six-gun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c97068c0af5e79f0800000000000000
+      internalID: -468832167038780984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3175d1ecce27a7510800000000000000
+      internalID: 1547675783351064339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c27fd9f225fada0800000000000000
+      internalID: -5931431819756491757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e35d8d2fa305360800000000000000
+      internalID: 7156284622586068497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce039f54ed375620800000000000000
+      internalID: 2762744947480399552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5a356ca94fa36a0800000000000000
+      internalID: -6468588969174784592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bbff65970c57c00800000000000000
+      internalID: 897835328113458054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc621c77831d3ff0800000000000000
+      internalID: -54866147835482929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e367c878b51f9fb0800000000000000
+      internalID: -4638965209123822620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a342778708cd7d0800000000000000
+      internalID: -2892295605795407317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8cb727a8b93cf40800000000000000
+      internalID: 5747608568383391933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40020bce6d2d70bc0800000000000000
+      internalID: -3816850338637406204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bba32528b1025a0800000000000000
+      internalID: -6548203611657422057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c68672ef417cbc10800000000000000
+      internalID: 2070654516599359171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9823c01f350960880800000000000000
+      internalID: -8645063744490294647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e126b5c328a2e97c0800000000000000
+      internalID: -4062763074994871778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbab5f974bab1ea0800000000000000
+      internalID: -5900934562634290242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_17
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341745e316beaa320800000000000000
+      internalID: 2570125340258365763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_18
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c4e768603947230800000000000000
+      internalID: 3635692455430343712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_19
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5910625f9b685e4d0800000000000000
+      internalID: -3105928234762108523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_20
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e23ccc376f1d20b0800000000000000
+      internalID: -5751906620820147486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_21
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caeb779e7d1a24c00800000000000000
+      internalID: 883446425625018028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_22
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fec36a1ff76ce60800000000000000
+      internalID: 7982208065413639952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_23
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bc39638f491a780800000000000000
+      internalID: -8673487613550408862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569cc7de0f46f5d20800000000000000
+      internalID: 3269442840433576293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_25
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a122bf852a84f430800000000000000
+      internalID: 3815826678218891681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_26
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fc9cf82473c7ee0800000000000000
+      internalID: -1262073036550844661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_27
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9c468620854a1b0800000000000000
+      internalID: -5646291265451144710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_28
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056518403c2786dd0800000000000000
+      internalID: -2492616211829795248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_29
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2b1f7a7aa68fc10800000000000000
+      internalID: 2087535695595942585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_30
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd4b2c8af59bccd0800000000000000
+      internalID: -2536769061767131681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_31
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349c4c903f540bb60800000000000000
+      internalID: 7759779068102625603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_32
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce076f58afc2b3e0800000000000000
+      internalID: -2039339359183368503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_33
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d1a36b3de5db9e0800000000000000
+      internalID: -1604021628885656309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_34
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f858a2235f4a28fa0800000000000000
+      internalID: -5799891997084187249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_35
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7df47567a0a860e0800000000000000
+      internalID: -2276392970813637250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_36
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d66a07a57505080800000000000000
+      internalID: -9200757992769294991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_37
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb022b125f0127c0800000000000000
+      internalID: -4097977340613489698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_38
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1aef9dc113b5270800000000000000
+      internalID: 8240233943190643105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_39
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1d09bff50568ad0800000000000000
+      internalID: -2700382553389346353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_40
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae56f308893fa820800000000000000
+      internalID: 2931625138786295456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_41
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eccf8fd1963bd5b0800000000000000
+      internalID: -5342616532796060443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_42
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075b708f5a56a8150800000000000000
+      internalID: 5875620427363497328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_43
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4056776e866d73c10800000000000000
+      internalID: 2033329502812595460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_44
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fff30749b2b3e460800000000000000
+      internalID: 7269850732336250866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_45
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1316fccfbe022d10800000000000000
+      internalID: 2099256593248293660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_46
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723ece34d0eadad70800000000000000
+      internalID: 9056085797709341479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_47
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f260eab32e1886150800000000000000
+      internalID: 5866081323313923631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_48
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29832a30794c582b0800000000000000
+      internalID: -5582840010175793006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_49
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dc3d97d21bcdec0800000000000000
+      internalID: -3540760398144483939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_50
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3554f96520465fd70800000000000000
+      internalID: 9076270585241093459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_51
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc882d1bd08fbbc0800000000000000
+      internalID: -3765149084883055410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_52
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dd2a5a5a032d7a0800000000000000
+      internalID: -6353962636259697365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_53
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1d2a4503e82bc10800000000000000
+      internalID: 2067871517146010089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_54
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befd646b33685a910800000000000000
+      internalID: 1848030778765008875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_55
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df66fa74e09936a80800000000000000
+      internalID: -8474761787169872131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_56
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554810a1a8a44b290800000000000000
+      internalID: -7875587891361905579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_57
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66380b370103ac500800000000000000
+      internalID: 417198762703749990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_58
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2a180c6e4846ca0800000000000000
+      internalID: -6024544274907815247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_59
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec728c8f61675ca0800000000000000
+      internalID: -6028242444485493525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_60
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6d79e49ca3f6e50800000000000000
+      internalID: 6804722198261520077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_61
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36834a4cd4f83c70800000000000000
+      internalID: 8951173486374782527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_62
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c5cd324b8b15000800000000000000
+      internalID: 23002556948831360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_63
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f722e3eea0c92a80800000000000000
+      internalID: -8491043765050267655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_64
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa00521de0f76e00800000000000000
+      internalID: 1038063140137339632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_65
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286ae67a16757e3f0800000000000000
+      internalID: -871631925940410750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_66
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7575bb19c6ea4b0800000000000000
+      internalID: -5427281127765747758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_67
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f9586c5510b2380800000000000000
+      internalID: -8995094362827939938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_68
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcb61e48613674b0800000000000000
+      internalID: -5443108775574192943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_69
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f8e88e4eb535ee0800000000000000
+      internalID: -1273573230903390435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_70
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56ae2e3d6f233f00800000000000000
+      internalID: 1095271280622347866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_71
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3eb50a88c394c120800000000000000
+      internalID: 2433232188205284922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_72
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287fa0dd1f15453e0800000000000000
+      internalID: -2065936229818763390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_73
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a6b58d0219d3d70800000000000000
+      internalID: 9024528798575192614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_74
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797af262f8a6e8650800000000000000
+      internalID: 6237039697008240535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_75
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdd91e9cce3297d0800000000000000
+      internalID: -2913196960408543747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_76
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d2de08ac056f040800000000000000
+      internalID: 4681017693374852498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_77
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3903f993c490ddac0800000000000000
+      internalID: -3828893885206155117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_78
+      rect:
+        serializedVersion: 2
+        x: 3984
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2efe04c4df02eb00800000000000000
+      internalID: 856264285650615855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_79
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b762edc48aaccb240800000000000000
+      internalID: 4808941326317790843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_80
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7146f1256528280800000000000000
+      internalID: -9042570191092574292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_81
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b393f8b74a2e5d00800000000000000
+      internalID: 963253857837880248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_82
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da346fdae5c0c980800000000000000
+      internalID: -8520592882424071470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_83
+      rect:
+        serializedVersion: 2
+        x: 4272
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520006459757c02f0800000000000000
+      internalID: -1005299452843392987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_84
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906a654551e50cad0800000000000000
+      internalID: -2684041932210526711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_85
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ff3dc286c10ede0800000000000000
+      internalID: -1306012658183176400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_86
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635e591a5208a8990800000000000000
+      internalID: -7382947740007406282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_87
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047eab1c5a6dd63e0800000000000000
+      internalID: -2058753447230249152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_88
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b381b6d80a5a8280800000000000000
+      internalID: -9040314307984653391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_89
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5f1422852d39620800000000000000
+      internalID: 2779796670991431140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_90
+      rect:
+        serializedVersion: 2
+        x: 4656
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143bd4a74b7880dd0800000000000000
+      internalID: -2519614782298016959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_91
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d85ae742f276d790800000000000000
+      internalID: -7505685344052160304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_92
+      rect:
+        serializedVersion: 2
+        x: 4752
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41c8b019449c2a40800000000000000
+      internalID: 5344809899316003148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_93
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253053ceb1f86b0b0800000000000000
+      internalID: -5713221727183109294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_94
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5891e35cb31fd9650800000000000000
+      internalID: 6241409897619921285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_95
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611ef30a1ba08b970800000000000000
+      internalID: 8770772032318071062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_96
+      rect:
+        serializedVersion: 2
+        x: 4944
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6a36f096e675d70800000000000000
+      internalID: 9031808975223629536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_97
+      rect:
+        serializedVersion: 2
+        x: 4992
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c7fe65bc632c920800000000000000
+      internalID: 3009027748001709062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_98
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30109e4ef1615d470800000000000000
+      internalID: 8418659404679282947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_99
+      rect:
+        serializedVersion: 2
+        x: 5088
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177e02caeba01bef0800000000000000
+      internalID: -94282303150168207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_100
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e9368ac32863a50800000000000000
+      internalID: 6500526309190639162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_101
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa270d2f98c738c80800000000000000
+      internalID: -8321670754524433750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_102
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7a6f7fb462aa260800000000000000
+      internalID: 7109537069482289081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_103
+      rect:
+        serializedVersion: 2
+        x: 5280
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965b37d1e1d00e640800000000000000
+      internalID: 5107096400432444777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_104
+      rect:
+        serializedVersion: 2
+        x: 5328
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e361633991d60ebd0800000000000000
+      internalID: -2602960628008741314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_105
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a221d2992be412b0800000000000000
+      internalID: -5614604271634799960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_106
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860d940d34bbd2580800000000000000
+      internalID: -8850211792781455256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_107
+      rect:
+        serializedVersion: 2
+        x: 5472
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e897d8b6c02bd90800000000000000
+      internalID: -7083585607825781186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_108
+      rect:
+        serializedVersion: 2
+        x: 5520
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3bde0adf74422c0800000000000000
+      internalID: -4457358576537717831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_109
+      rect:
+        serializedVersion: 2
+        x: 5568
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233f3fa01cdaaa450800000000000000
+      internalID: 6100879689850811186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_110
+      rect:
+        serializedVersion: 2
+        x: 5616
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3caba70147ed0a80800000000000000
+      internalID: -8498882655290676166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_111
+      rect:
+        serializedVersion: 2
+        x: 5664
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d60e9892fef4e500800000000000000
+      internalID: 424744582775703257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_112
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85af2a6ec300b4e70800000000000000
+      internalID: 9100367733599697496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_113
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f126553a92eca86c0800000000000000
+      internalID: -4140270229184486881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_114
+      rect:
+        serializedVersion: 2
+        x: 5808
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8d5bd70fb6b85d0800000000000000
+      internalID: -3059232841222727439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_115
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bac7ac4d60c4e810800000000000000
+      internalID: 1793770127270333110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: six-gun_116
+      rect:
+        serializedVersion: 2
+        x: 5904
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffaf7849c5d46950800000000000000
+      internalID: 6441508427528122364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9cb22173ebe6e1341acb0c9db8ac7f7e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      six-gun_0: -468832167038780984
+      six-gun_1: 1547675783351064339
+      six-gun_10: 5747608568383391933
+      six-gun_100: 6500526309190639162
+      six-gun_101: -8321670754524433750
+      six-gun_102: 7109537069482289081
+      six-gun_103: 5107096400432444777
+      six-gun_104: -2602960628008741314
+      six-gun_105: -5614604271634799960
+      six-gun_106: -8850211792781455256
+      six-gun_107: -7083585607825781186
+      six-gun_108: -4457358576537717831
+      six-gun_109: 6100879689850811186
+      six-gun_11: -3816850338637406204
+      six-gun_110: -8498882655290676166
+      six-gun_111: 424744582775703257
+      six-gun_112: 9100367733599697496
+      six-gun_113: -4140270229184486881
+      six-gun_114: -3059232841222727439
+      six-gun_115: 1793770127270333110
+      six-gun_116: 6441508427528122364
+      six-gun_12: -6548203611657422057
+      six-gun_13: 2070654516599359171
+      six-gun_14: -8645063744490294647
+      six-gun_15: -4062763074994871778
+      six-gun_16: -5900934562634290242
+      six-gun_17: 2570125340258365763
+      six-gun_18: 3635692455430343712
+      six-gun_19: -3105928234762108523
+      six-gun_2: -5931431819756491757
+      six-gun_20: -5751906620820147486
+      six-gun_21: 883446425625018028
+      six-gun_22: 7982208065413639952
+      six-gun_23: -8673487613550408862
+      six-gun_24: 3269442840433576293
+      six-gun_25: 3815826678218891681
+      six-gun_26: -1262073036550844661
+      six-gun_27: -5646291265451144710
+      six-gun_28: -2492616211829795248
+      six-gun_29: 2087535695595942585
+      six-gun_3: 7156284622586068497
+      six-gun_30: -2536769061767131681
+      six-gun_31: 7759779068102625603
+      six-gun_32: -2039339359183368503
+      six-gun_33: -1604021628885656309
+      six-gun_34: -5799891997084187249
+      six-gun_35: -2276392970813637250
+      six-gun_36: -9200757992769294991
+      six-gun_37: -4097977340613489698
+      six-gun_38: 8240233943190643105
+      six-gun_39: -2700382553389346353
+      six-gun_4: 2762744947480399552
+      six-gun_40: 2931625138786295456
+      six-gun_41: -5342616532796060443
+      six-gun_42: 5875620427363497328
+      six-gun_43: 2033329502812595460
+      six-gun_44: 7269850732336250866
+      six-gun_45: 2099256593248293660
+      six-gun_46: 9056085797709341479
+      six-gun_47: 5866081323313923631
+      six-gun_48: -5582840010175793006
+      six-gun_49: -3540760398144483939
+      six-gun_5: -6468588969174784592
+      six-gun_50: 9076270585241093459
+      six-gun_51: -3765149084883055410
+      six-gun_52: -6353962636259697365
+      six-gun_53: 2067871517146010089
+      six-gun_54: 1848030778765008875
+      six-gun_55: -8474761787169872131
+      six-gun_56: -7875587891361905579
+      six-gun_57: 417198762703749990
+      six-gun_58: -6024544274907815247
+      six-gun_59: -6028242444485493525
+      six-gun_6: 897835328113458054
+      six-gun_60: 6804722198261520077
+      six-gun_61: 8951173486374782527
+      six-gun_62: 23002556948831360
+      six-gun_63: -8491043765050267655
+      six-gun_64: 1038063140137339632
+      six-gun_65: -871631925940410750
+      six-gun_66: -5427281127765747758
+      six-gun_67: -8995094362827939938
+      six-gun_68: -5443108775574192943
+      six-gun_69: -1273573230903390435
+      six-gun_7: -54866147835482929
+      six-gun_70: 1095271280622347866
+      six-gun_71: 2433232188205284922
+      six-gun_72: -2065936229818763390
+      six-gun_73: 9024528798575192614
+      six-gun_74: 6237039697008240535
+      six-gun_75: -2913196960408543747
+      six-gun_76: 4681017693374852498
+      six-gun_77: -3828893885206155117
+      six-gun_78: 856264285650615855
+      six-gun_79: 4808941326317790843
+      six-gun_8: -4638965209123822620
+      six-gun_80: -9042570191092574292
+      six-gun_81: 963253857837880248
+      six-gun_82: -8520592882424071470
+      six-gun_83: -1005299452843392987
+      six-gun_84: -2684041932210526711
+      six-gun_85: -1306012658183176400
+      six-gun_86: -7382947740007406282
+      six-gun_87: -2058753447230249152
+      six-gun_88: -9040314307984653391
+      six-gun_89: 2779796670991431140
+      six-gun_9: -2892295605795407317
+      six-gun_90: -2519614782298016959
+      six-gun_91: -7505685344052160304
+      six-gun_92: 5344809899316003148
+      six-gun_93: -5713221727183109294
+      six-gun_94: 6241409897619921285
+      six-gun_95: 8770772032318071062
+      six-gun_96: 9031808975223629536
+      six-gun_97: 3009027748001709062
+      six-gun_98: 8418659404679282947
+      six-gun_99: -94282303150168207
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

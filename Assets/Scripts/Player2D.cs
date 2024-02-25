@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using static Weapon2D;
 
 // Inherit from Character2D and interfaces for damage, healing, and scoring
 public class Player2D : Character2D, IDamagable, IHealable, IScoreable
@@ -62,12 +63,24 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
         bool isGrounded = characterController.onGround;
         animator.SetBool("OnGround", isGrounded);
 
-        if (isGrounded) jumpCount = 0; // Reset jump count
-
-        if (Input.GetButtonDown("Jump") && (isGrounded || jumpCount < maxJumpCount))
+        if (isGrounded)
         {
-            movement.y = jumpHeight;
-            jumpCount++;
+            jumpCount = 0; // Reset jump count
+        }
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            if (isGrounded || jumpCount < maxJumpCount)
+            {
+                movement.y = jumpHeight;
+                jumpCount++;
+
+                // Check if it's a double jump
+                if (jumpCount == 1) 
+                {
+                    animator.SetTrigger("DoubleJump");
+                }
+            }
         }
     }
 
@@ -86,6 +99,7 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
     private IEnumerator PerformDash()
     {
         isDashing = true;
+        animator.SetTrigger("Dash");
         float originalSpeed = speed; // Save original speed
         speed += dashSpeed; // Increase speed for momentum
         cooldownTimer = dashCooldown; // Start cooldown
@@ -106,8 +120,28 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
     // Handle player attacks
     private void HandleAttackInput()
     {
-        if (Input.GetButtonDown("Fire1")) rangedWeapon.Use(animator);
-        if (Input.GetButtonDown("Fire2")) weaponMelee.Use(animator); 
+        //if (Input.GetButtonDown("Fire1")) rangedWeapon.Use(animator);
+        //if (Input.GetButtonDown("Fire2")) weaponMelee.Use(animator); 
+        if (Input.GetButtonDown("Fire1"))
+        {
+            rangedWeapon.Use(animator); 
+            animator.SetTrigger("Shoot"); 
+        }
+        if (Input.GetButtonDown("Fire2"))
+        {
+            weaponMelee.Use(animator);
+            animator.SetTrigger("Attack");
+        }
+    }
+
+    public void TriggerMeleeAttack()
+    {
+        
+        if (weaponMelee != null)
+        {
+            eDirection direction = facing == eFace.Right ? eDirection.Right : eDirection.Left;
+            weaponMelee.Attack(direction);
+        }
     }
 
     // Implementing IDamagable, IHealable, IScoreable interfaces
@@ -123,10 +157,10 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
     private void Die()
     {
         Debug.Log("Player Died");
-        
-        gameObject.SetActive(false);
-        
-        animator.SetTrigger("Die");
+
+        //gameObject.SetActive(false);
+
+        animator.SetTrigger("Death");
     }
 
     public void Heal(float health)
