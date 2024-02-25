@@ -12,6 +12,10 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+    public void ChangeScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 
     public void Exit()
     {

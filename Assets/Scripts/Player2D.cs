@@ -34,6 +34,9 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
     [SerializeField] private AudioClip attackSound;
     private AudioSource audioSource;
 
+    [Header("scenes")]
+    [SerializeField] private SceneChanger sceneChanger;
+
 
 
     void Awake()
@@ -181,6 +184,8 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
         //gameObject.SetActive(false);
 
         animator.SetTrigger("Death");
+        // Change to the Lose scene
+        sceneChanger.ChangeScene("Lose");
     }
 
     public void Heal(float health)
@@ -194,5 +199,9 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
         scoreVar.value += score;
         Debug.Log("Score Updated: " + score);
         UIManager.Instance.Score = scoreVar.value;
+        if (scoreVar.value >= 140)
+        {
+            sceneChanger.ChangeScene("Win"); 
+        }
     }
 }
