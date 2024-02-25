@@ -27,6 +27,20 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
     [SerializeField] private Weapon2D weaponMelee;
     [SerializeField] public Weapon2D rangedWeapon;
 
+    [Header("Sounds")]
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip doubleJump;
+    [SerializeField] private AudioClip dashSound;
+    [SerializeField] private AudioClip attackSound;
+    private AudioSource audioSource;
+
+
+
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     private void Update()
     {
         HandleMovementInput();
@@ -74,10 +88,12 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
             {
                 movement.y = jumpHeight;
                 jumpCount++;
+            audioSource.PlayOneShot(jumpSound);
 
                 // Check if it's a double jump
                 if (jumpCount == 1) 
                 {
+                    audioSource.PlayOneShot(doubleJump);
                     animator.SetTrigger("DoubleJump");
                 }
             }
@@ -100,9 +116,12 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
     {
         isDashing = true;
         animator.SetTrigger("Dash");
+        audioSource.PlayOneShot(dashSound);
         float originalSpeed = speed; // Save original speed
         speed += dashSpeed; // Increase speed for momentum
         cooldownTimer = dashCooldown; // Start cooldown
+
+       
 
         Vector2 dashDirection = new Vector2(facing == eFace.Right ? 1 : -1, 0) * dashSpeed;
         characterController.Move(dashDirection * Time.deltaTime);
@@ -124,6 +143,7 @@ public class Player2D : Character2D, IDamagable, IHealable, IScoreable
         //if (Input.GetButtonDown("Fire2")) weaponMelee.Use(animator); 
         if (Input.GetButtonDown("Fire1"))
         {
+            audioSource.PlayOneShot(attackSound);
             rangedWeapon.Use(animator); 
             animator.SetTrigger("Shoot"); 
         }
